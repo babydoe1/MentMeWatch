@@ -1,0 +1,171 @@
+header {
+    background-color:  #efe8e2;
+    height: 550px;
+}
+#logo {
+    position: absolute;
+    left: 100px;
+}
+#headerwatch {
+    height: 450px;
+    width: 450px;
+    position: absolute;
+    top: 100px;
+    left: 80px;
+}
+.navtabs {
+    position: relative;
+    display: inline;
+    float: right;
+    right: 100px;
+    padding: 15px 20px;
+}
+.navtabs a:link {
+    color: #000000;
+    text-decoration: none;
+}
+#intro {
+    position: absolute;
+    top: 150px;
+    left: 650px;
+}
+#introducing{
+    color: #6b76ff ;
+}
+#download{
+    height: 30px;
+    width: 150px;
+    border:  1px solid #6b76ff;
+    border-radius: 30px;
+    background-color: #6b76ff ;
+    color: white;
+}
+h2 {
+    text-align: center;
+}
+#about {
+    position: relative;
+    left: 200px;
+    width: 300px;
+    height: 400px;
+}
+#watch {
+    position: absolute;
+    top: 580px;
+    right: 300px;
+    width: 300px;
+    height: 300px;
+}
+
+.features {
+    width: 180px;
+    height: 150px;
+    text-align: center;
+    padding: 30px;
+    margin: 30px;
+    border-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #6b76ff;
+    
+}
+
+.testimonials {
+    width: 200px;
+    height: 220px;
+    text-align: center;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+#testimonialtitle{
+    color: #ffffff;
+}
+
+#bio{
+    background-color: #002084;
+}
+.image{
+    position: relative;
+    left: 0px;
+}
+.details{
+    position: relative;
+    text-align: left;
+    left: 70px;
+}
+/* I had to style the images seperately when i ran out of options */
+#dwilight{
+    position: absolute;
+    left: 285px;
+}
+#andy {
+    position: absolute;
+    left: 590px;
+}
+#kelly {
+    position: absolute;
+    left: 900px;
+}
+i {
+    font-size: small;
+}
+#getintouch {
+    padding: 20px;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+#email {
+    border-radius: 10px;
+    height: 30px;
+    width: 300px;
+}
+#socialicon{
+    text-align: center;
+}
+#footerlogo{
+    position: relative;
+    left: 200px;
+}
+.footertabs{
+    display: inline;
+    padding: 20px;
+    position: relative;
+    left: 300px;
+    bottom: 40px;
+    
+}
+.footertabs a:link {
+    color: #888585;
+    text-decoration: none;
+    text-align: center;
+}
+footer p {
+    text-align: center;
+    font-size: small;
+    color: #888585;
+}
+/* to change the appearance of the features when mouse hovers on it */
+.features:hover {
+    background-color: #6b76ff;
+    color: #ffffff;
+}
+/* to change the image on hover */
+.features:hover #notification{
+    content: url(../Assets/notification.svg);
+}
+.features:hover #file{
+    content: url(../Assets/files.png);
+}
+.features:hover #message{
+    content: url(../Assets/messages.png);
+}
+.features:hover #profile{
+    content: url(../Assets/profile.png);
+}
+.features:hover #webinar{
+    content: url(../Assets/Group\ 96.png);
+}
+.features:hover #calendar{
+    content: url(../Assets/Exclusion\ 8.png);
+}
